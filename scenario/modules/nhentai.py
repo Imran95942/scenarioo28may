@@ -68,6 +68,6 @@ def nhentai_data(noombers):
         f"{title}",
         html_content=post_content,
         author_name="@scenario", 
-        author_url="https://t.me/scenario"
+        author_url="https://t.me/b0rzbot"
     )
     return title,tags,artist,total_pages,post['url'],links[0]
