@@ -32,10 +32,10 @@ import html
 from telegram import Update
 from telegram.ext import filters, CallbackContext
 
-from Cutiepii_Robot import CUTIEPII_PTB
-from Cutiepii_Robot.modules.disable import DisableAbleCommandHandler
-from Cutiepii_Robot.modules.helper_funcs.anonymous import user_admin
-from Cutiepii_Robot.modules.sql.antichannel_sql import antichannel_status, disable_antichannel, enable_antichannel
+from scenario import CUTIEPII_PTB
+from scenario.modules.disable import DisableAbleCommandHandler
+from scenario.modules.helper_funcs.anonymous import user_admin
+from scenario.modules.sql.antichannel_sql import antichannel_status, disable_antichannel, enable_antichannel
 
 @user_admin
 async def set_antichannel(update: Update, context: CallbackContext):
