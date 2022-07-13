@@ -143,7 +143,7 @@ buttons = [
                              text="✨  Разработчик ✨",
                              url=f"https://t.me/{SUPPORT_CHAT}"),
                        InlineKeyboardButton(
-                             text="✨ ᴜᴍᴜʜᴀʀɪʙuɴ ✨",
+                             text="✨ ᴍᴜʜᴀʀɪʙuɴ ✨",
                              url=f"https://t.me/{UPDATES_CHANNEL}")
                      ],
                      [
@@ -155,10 +155,9 @@ buttons = [
 
                     
 HELP_STRINGS = """
-*Main* commands available:
+*Основные* доступные команды*:
  ➛ /help: PM's you this message.
  ➛ /help <module name>: PM's you info about that module.
- ➛ /donate: information on how to donate!
  ➛ /settings:
    ❂ in PM: will send you your settings for all supported modules.
    ❂ in a group: will redirect you to pm, with all that chat's settings.
